@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: cyan;
+    color: red;
+    text-align: center;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+h2 {
+    font-size: 24px;
+    color: blue;
+}
+
+.inventory, .materials {
+    margin: 20px 0;
+}
+
+#item-list, #material-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#item-list li {
+    padding: 10px;
+    margin: 5px 0;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+#item-list li:hover {
+    background-color: darkred;
+}
+
+#item-list li.selected {
+    background-color: darkcyan;
+}
+
+#clear-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: red;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+#clear-button:hover {
+    background-color: darkred;
+}
